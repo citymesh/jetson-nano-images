@@ -14,7 +14,9 @@ Powered by [Citymesh](https://citymesh.com/)
 
 ## What
 
-Repository with Dockerfile's for NVIDIA Jetson Nano. Each folder has a Dockerfile for one or more libraries. 
+This repository allows you to build an independent, containerized Deepstream solution for Jetson Nano. The resulting container contains all dependencies without the need of any libraries mounted from the host system.
+
+Some trickery is involved to keep the resulting image size small, as Deepstream normally requires all examples and documentation to be present.
 
 
 ## How
